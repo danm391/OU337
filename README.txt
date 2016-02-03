@@ -1,0 +1,2 @@
+Java Program that prints the 99 bottles of beer song. This project will utilize GIT version control.
+GIT will be used to manage the project codebase. We will create a remote repository in GIT for managing our master and other branch.
