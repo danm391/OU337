@@ -26,7 +26,9 @@ public class BeerSong {
             System.out.println("take one down, pass it around, " + (beerNum - 1) + " " + word + " " + "of beer on the wall.");
             beerNum = beerNum - 1; //Decrease the beer bottle number each time the loop runs
 
+            //If statement to determine if the beer bottle number is one
             if (beerNum == 1){
+                //Print out the beer bottle song lyric when the bottle count reaches one and print out one bottle  
                 System.out.println(beerNum + " " + word2 + " of beer on the wall, " + beerNum + " " + word2 + " of beer");
             }
 
