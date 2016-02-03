@@ -13,9 +13,9 @@ public class BeerSong {
 
     //Created 99 bottles of beer song function
     private static void Ninety_Nine_Bottles_of_Beer() {
-        int beerNum = 99;
-        String word = "bottles";
-        String word2 = "bottle";
+        int beerNum = 99;  //Variable for number of 99 beer bottles
+        String word = "bottles"; //Variable for word bottles
+        String word2 = "bottle"; //Variable for single bottle
 
 
 
