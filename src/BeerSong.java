@@ -28,11 +28,12 @@ public class BeerSong {
 
             //If statement to determine if the beer bottle number is one
             if (beerNum == 1){
-                //Print out the beer bottle song lyric when the bottle count reaches one and print out one bottle  
+                //Print out the beer bottle song lyric when the bottle count reaches one and print out one bottle
                 System.out.println(beerNum + " " + word2 + " of beer on the wall, " + beerNum + " " + word2 + " of beer");
             }
 
         }
+        //Print out final lyric with no more bottles of beer
         System.out.println("take one down, pass it around, no more bottles of beer on the wall.");
     }
 }
