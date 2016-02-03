@@ -4,12 +4,14 @@
  * Assignment 2
  */
 public class BeerSong {
+    //Created Main function
     public static void main(String[] args) {
 
-        Ninety_Nine_Bottles_of_Beer();
+        Ninety_Nine_Bottles_of_Beer(); //Calling 99 beer bottles song function
 
     }
 
+    //Created 99 bottles of beer song function
     private static void Ninety_Nine_Bottles_of_Beer() {
         int beerNum = 99;
         String word = "bottles";
