@@ -24,7 +24,7 @@ public class BeerSong {
             //Print out the beer bottle song lyrics and enter the correct bottle number for each line
             System.out.println(beerNum + " " + word + " of beer on the wall, " + beerNum + " " + word + " of beer");
             System.out.println("take one down, pass it around, " + (beerNum - 1) + " " + word + " " + "of beer on the wall.");
-            beerNum = beerNum - 1;
+            beerNum = beerNum - 1; //Decrease the beer bottle number each time the loop runs
 
             if (beerNum == 1){
                 System.out.println(beerNum + " " + word2 + " of beer on the wall, " + beerNum + " " + word2 + " of beer");
