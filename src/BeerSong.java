@@ -6,9 +6,15 @@
 public class BeerSong {
     public static void main(String[] args) {
 
+        Ninety_Nine_Bottles_of_Beer();
+
+    }
+
+    private static void Ninety_Nine_Bottles_of_Beer() {
         int beerNum = 99;
         String word = "bottles";
         String word2 = "bottle";
+
 
 
         while (beerNum > 1) {
@@ -22,7 +28,6 @@ public class BeerSong {
             }
 
         }
-            System.out.println("take one down, pass it around, no more bottles of beer on the wall.");
-
+        System.out.println("take one down, pass it around, no more bottles of beer on the wall.");
     }
 }
