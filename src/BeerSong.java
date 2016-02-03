@@ -18,9 +18,10 @@ public class BeerSong {
         String word2 = "bottle"; //Variable for single bottle
 
 
-
+        //Created while loop to run program while the number of beer bottles is greater than 1
         while (beerNum > 1) {
 
+            //Print out the beer bottle song lyrics and enter the correct bottle number for each line
             System.out.println(beerNum + " " + word + " of beer on the wall, " + beerNum + " " + word + " of beer");
             System.out.println("take one down, pass it around, " + (beerNum - 1) + " " + word + " " + "of beer on the wall.");
             beerNum = beerNum - 1;
